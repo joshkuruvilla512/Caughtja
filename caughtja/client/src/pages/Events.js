@@ -59,8 +59,11 @@ function Events() {
         <Row>
           <Col size="md-6">
             <Jumbotron>
-              <h1>What Events Should I Read?</h1>
+              <h1>Create an Event!</h1>
             </Jumbotron>
+            <div>
+            <h2>To create an event, write the name of the event, who is organizing it, and the purpose behind the event</h2>
+            
             <form>
               <Input
                 onChange={handleInputChange}
@@ -84,10 +87,11 @@ function Events() {
                 Submit Event
               </FormBtn>
             </form>
+            </div>
           </Col>
           <Col size="md-6 sm-12">
             <Jumbotron>
-              <h1>Events On My List</h1>
+              <h1>Favorite Events!</h1>
             </Jumbotron>
             {Events.length ? (
               <List>
