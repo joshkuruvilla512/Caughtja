@@ -59,7 +59,7 @@ function Events() {
         <Row>
           <Col size="md-6">
             <Jumbotron>
-              <h1>What Events Should I Read?</h1>
+              <h1>What Events Should I Participate?</h1>
             </Jumbotron>
             <form>
               <Input
