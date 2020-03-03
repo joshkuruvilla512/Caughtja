@@ -13,4 +13,6 @@ router
   .put(eventsController.update)
   .delete(eventsController.remove);
 
+
+
 module.exports = router;
