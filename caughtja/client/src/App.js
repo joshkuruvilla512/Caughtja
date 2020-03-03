@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Events from "./pages/Events";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
+import Login from "./pages/Login";
 import Nav from "./components/Nav";
 
 function App() {
@@ -11,12 +12,12 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path={["/", "/Events"]}>
-            <Events />
-          </Route>
-          <Route exact path="/Events/:id">
+          <Route exact path="/" component={Login}/>
+            {/* <Events /> */}
+          {/* </Route> */}
+          <Route exact path="/Events/" component={Events}/>
             <Detail />
-          </Route>
+          {/* </Route> */}
           <Route>
             <NoMatch />
           </Route>
