@@ -2,6 +2,8 @@ import React from "react";
 
 function About(){
 
+    console.log("random change");
+
     return (
         <div class="d-inline p-2 bg-primary text-white">
 
