@@ -5,10 +5,10 @@ const db = require("../models");
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb://localhost/reactreadinglist"
+  "mongodb://localhost/eventList"
 );
 
-const Eventseed = [
+const eventSeed = [
   {
     Event: "AGE of Central Texas",
     Organizer: "Adult Day Care Center Austin",
@@ -47,7 +47,7 @@ const Eventseed = [
 
 db.Event
   .remove({})
-  .then(() => db.Event.collection.insertMany(Eventseed))
+  .then(() => db.Event.collection.insertMany(eventSeed))
   .then(data => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);
