@@ -13,6 +13,11 @@ function Nav() {
 
           <ul className="list-inline">
             <li className="list-inline-item">
+            <a class="navbar-item" href="/">
+           
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTjx5ll2YOrFXSKloKOAQgn5OQ3tl-BEPAchT7IfMk53QlTalSe" alt="CaughtJA" width="50" height="50"/>
+               
+            </a>
               <h3>Helping Hands</h3>
             </li>
           </ul>

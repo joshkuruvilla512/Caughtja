@@ -78,7 +78,7 @@ function Events() {
               <TextArea
                 onChange={handleInputChange}
                 name="Purpose"
-                placeholder="Purpose (Optional)"
+                placeholder="Purpose (required)"
               />
               <FormBtn
                 disabled={!(formObject.Organizer && formObject.Event)}
