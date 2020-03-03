@@ -13,7 +13,7 @@ function About(){
                 Josh K
             </img>
 
-            <img src="https://ca.slack-edge.com/TQ7TNT9V0-UQSKFF4UE-56aed9e3dc99-512" alt="Christopher L Garcia" class="rounded-circle">
+            <img src="../Assets/Chris.jpeg" alt="Christopher L Garcia" class="rounded-circle">
                 Christopher L Garcia
             </img>
         
