@@ -1,3 +1,4 @@
-.node_modules
-.api_key
-../../../Asset
+node_modules
+npm-debug.log
+.DS_Store
+/*.env
