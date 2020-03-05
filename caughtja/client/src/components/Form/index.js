@@ -17,6 +17,14 @@ export function TextArea(props) {
     </div>
   );
 }
+// export function Address(props) {
+//   return (
+//     <div className="form-group">
+//       <input className="form-control" {...props} />
+//     </div>
+//   );
+// }
+
 
 export function FormBtn(props) {
   return (
