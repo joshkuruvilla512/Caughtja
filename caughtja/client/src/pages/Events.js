@@ -20,7 +20,7 @@ function Events() {
   // Loads all Events and sets them to Events
   function loadEvents() {
     API.getEvents()
-      .then(res => 
+      .then(res =>
         setEvents(res.data)
       )
       .catch(err => console.log(err));
@@ -36,7 +36,7 @@ function Events() {
   // Handles updating component state when the user types into the input field
   function handleInputChange(event) {
     const { name, value } = event.target;
-    setFormObject({...formObject, [name]: value})
+    setFormObject({ ...formObject, [name]: value })
   };
 
   // When the form is submitted, use the API.saveEvent method to save the Event data
@@ -54,16 +54,19 @@ function Events() {
     }
   };
 
-    return (
-      <Container fluid>
-        <Row>
-          <Col size="md-6">
-            <Jumbotron>
-              <h1>Create an Event!</h1>
-            </Jumbotron>
+  return (
+    <Container fluid>
+      <Row>
+        <Col size="md-6">
+          <Jumbotron>
             <div>
+              <h1>Create an Event!</h1>
+            </div>
+
+          </Jumbotron>
+          <div>
             <h2>To create an event, write the name of the event, who is organizing it, and the purpose behind the event</h2>
-            
+
             <form>
               <Input
                 onChange={handleInputChange}
@@ -87,33 +90,33 @@ function Events() {
                 Submit Event
               </FormBtn>
             </form>
-            </div>
-          </Col>
-          <Col size="md-6 sm-12">
-            <Jumbotron>
-              <h1>Favorite Events!</h1>
-            </Jumbotron>
-            {Events.length ? (
-              <List>
-                {Events.map(Event => (
-                  <ListItem key={Event._id}>
-                    <Link to={"/Events/" + Event._id}>
-                      <strong>
-                        {Event.Event} by {Event.Organizer}
-                      </strong>
-                    </Link>
-                    <DeleteBtn onClick={() => deleteEvent(Event._id)} />
-                  </ListItem>
-                ))}
-              </List>
-            ) : (
+          </div>
+        </Col>
+        <Col size="md-6 sm-12">
+          <Jumbotron>
+            <h1>Favorite Events!</h1>
+          </Jumbotron>
+          {Events.length ? (
+            <List>
+              {Events.map(Event => (
+                <ListItem key={Event._id}>
+                  <Link to={"/Events/" + Event._id}>
+                    <strong>
+                      {Event.Event} by {Event.Organizer}
+                    </strong>
+                  </Link>
+                  <DeleteBtn onClick={() => deleteEvent(Event._id)} />
+                </ListItem>
+              ))}
+            </List>
+          ) : (
               <h3>No Results to Display</h3>
             )}
-          </Col>
-        </Row>
-      </Container>
-    );
-  }
+        </Col>
+      </Row>
+    </Container>
+  );
+}
 
 
 export default Events;
