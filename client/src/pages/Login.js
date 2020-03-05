@@ -12,7 +12,7 @@ import { Col, Row, Container } from "../components/Grid";
 class Login extends Component {
   render(){
     return (
-        <Container fluid>
+        <Container fluid >
              <Row>
              <Col size="md-6">
                 <Jumbotron>
@@ -21,7 +21,7 @@ class Login extends Component {
                  <div id="welcome">
                    
                  <h2>Find and Create Events Near You to Volunteer</h2>
-                 <p>Login to get view or create an event...</p>
+                 <p>Login to view or create an event...</p>
                  </div>
                  </Col>
                  </Row>

@@ -75,8 +75,8 @@ class About extends Component {
                  </Jumbotron>
                  <div id="welcome">
                    
-                 <h2>BY: CHRIS, JOSH, TEDLA</h2>
-                 <p>MWHAHAHAHA</p>
+                 <h2>BY: CHRIS, JOSH, & TEDLA</h2>
+                 <p>The purpose of our website is to make it easier for someone to create and/or view events near them to volunteer.</p>
                  </div>
                  </Col>
                  </Row>
