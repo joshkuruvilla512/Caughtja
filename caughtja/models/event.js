@@ -5,7 +5,7 @@ const eventSchema = new Schema({
   Event: { type: String, required: true },
   Organizer: { type: String, required: false },
   Purpose: String,
-  // Address: String,
+  Address: String,
   date: {type: Date, default: Date.now}
 });
 
