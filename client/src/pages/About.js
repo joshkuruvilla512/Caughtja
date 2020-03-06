@@ -76,7 +76,7 @@ class About extends Component {
                  <div id="welcome">
                    
                  <h2>BY: CHRIS, JOSH, & TEDLA</h2>
-                 <p>The purpose of our website is to make it easier for someone to create and/or view events near them to volunteer.</p>
+                 <p>As college students we are always looking for ways to volunteer. This can be difficult when you’re in a new city and don’t really know where to look for events. We created a website that will not only allow you to see events going on near you but allows you to create events.</p>
                  </div>
                  </Col>
                  </Row>
