@@ -1,26 +1,24 @@
 import React from "react";
+import Tedla from "../components/Assets/Tedla.jpg";
+import Josh from "../components/Assets/Josh.jpg";
+import Chris from "../components/Assets/Chris.jpg";
 
-function About(){
+function Contact(){
 
     return (
-        <div class="d-inline p-2 bg-primary text-white">
+        <div className="d-inline p-2 bg-primary text-white justify-content-center">// eslint-disable-next-line
 
-            <img src="/Caughtja/caughtja/Assets/Tedla.jpg" alt="Tedla Betsuan" class="rounded-circle">
-                Tedla Betsuan
-            </img>
+            <div className= "conatiner imag " > 
 
-            <img src="../../../../Assets/Josh.jpg" alt="Josh K" class="rounded-circle">
-                Josh K
-            </img>
-
-            <img src="https://ca.slack-edge.com/TQ7TNT9V0-UQSKFF4UE-56aed9e3dc99-512" alt="Christopher L Garcia" class="rounded-circle">
-                Christopher L Garcia
-            </img>
+                  <img src={Chris} alt={Chris} style= {{flex: 1, width: 300, height: 300, resizeMode: 'contain', marginLeft: 5, label: "Chris" }} />
+                  <img src={Josh} alt={Josh} style= {{flex: 1, width: 300, height: 300, resizeMode: 'contain', marginLeft: 5, label: "Josh"}} />
+                  <img src={Tedla} alt={Tedla} style= {{flex: 1, width: 300, height: 300, resizeMode: 'contain', marginLeft: 5, label: "Tedla"}}/>
+                 
         
-        
+            </div>
         </div>
 
     )
 }
 
-module.exports = About;
+export default Contact;

@@ -6,22 +6,16 @@ import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
-
 import Nav from "./components/Nav";
 import { useState } from "react";
-
 function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
   // useEffect(() => {
   //   axios.get("/api/hello").then(result => {
   //     console.log(result.data);
   //   })
   // }, [])
-
-
   function signUp(e) {
     console.log(e)
     let input1 = document.getElementById("input1").value
@@ -31,8 +25,6 @@ function App() {
     let otherElement = document.getElementById("welcome")
     element.innerHTML = `Welcome ${input1}`
     otherElement.append(element)
-
-
     // fetch("http://localhost:3000/api/events", {
     //   method: "POST",
     //   body: JSON.stringify({ "email": input1, "password": input2 })
@@ -42,20 +34,15 @@ function App() {
     //   console.log(res)
     // })
   }
-
   return (
     <Router>
       <div className="App">
-        <label htmlFor="email">Email: </label>
+        <label for="email">Email: </label>
         <input id="input1" name="email" type="text" value={email} onChange={(event) => { setEmail(event.target.value) }} /><br />
-        <label htmlFor="email">Password: </label>
+        <label for="email">Password: </label>
         <input id="input2" name="password" type="text" value={password} onChange={(event) => { setPassword(event.target.value) }} /><br />
-        <button onClick={e => signUp(e)}>Sign Up!</button>
-
-        <div>
-          {email} - {password}
-        </div>
-
+        <button onClick={e => signUp(e)}>Log In</button>
+       
         <Nav />
         <Switch>
           <Route exact path="/" component={Login} />
@@ -63,9 +50,6 @@ function App() {
           {/* </Route> */}
           <Route exact path="/Events/" component={Events} />
           <Route exact path="/About/" component={About} />
-          <Route exact path="/Contact/" component={Contact} />
-
-
           {/* <Detail /> */}
           {/* </Route> */}
           <Route>
@@ -76,5 +60,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

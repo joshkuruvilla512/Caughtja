@@ -63,14 +63,11 @@ import Jumbotron from "../components/Jumbotron";
 import { Col, Row, Container } from "../components/Grid";
 // import { List, ListItem } from "../components/List";
 // import { Input, TextArea, FormBtn } from "../components/Form";
-import Tedla from "../components/Assets/Tedla.jpg";
-import Josh from "../components/Assets/Josh.jpg";
-import Chris from "../components/Assets/Chris.jpg";
 
 class About extends Component {
   render(){
     return (
-        <Container fluid >
+        <Container fluid>
              <Row>
              <Col size="md-6">
                 <Jumbotron>
@@ -78,26 +75,8 @@ class About extends Component {
                  </Jumbotron>
                  <div id="welcome">
                    
-                 <h2> BY: Chris, JOSH, Tedla </h2>
-                 <div className= "imag " >
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                 </div>
-
-
+                 <h2>BY: CHRIS, JOSH, & TEDLA</h2>
+                 <p>The purpose of our website is to make it easier for someone to create and/or view events near them to volunteer.</p>
                  </div>
                  </Col>
                  </Row>
