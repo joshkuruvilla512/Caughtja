@@ -42,9 +42,7 @@ function App() {
         <label for="email">Password: </label>
         <input id="input2" name="password" type="text" value={password} onChange={(event) => { setPassword(event.target.value) }} /><br />
         <button onClick={e => signUp(e)}>Log In</button>
-        <div>
-          {email} - {password}
-        </div>
+       
         <Nav />
         <Switch>
           <Route exact path="/" component={Login} />
