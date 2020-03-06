@@ -1,0 +1,14 @@
+html { 
+     background-image: url("./images/clement-falize-9uNFBOXBEBc-unsplash_optimized.jpg");  
+     background-color: #4377CA; 
+      border-radius: 0px;  
+      background-position: center;  
+      background-size: cover;
+      height: 100vh; 
+       margin: 0; 
+        padding: 0;
+    }
+.nav-wrapper {  
+    background-color: rgba(235, 13, 13, 0.664);
+} 
+
