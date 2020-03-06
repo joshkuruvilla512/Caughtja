@@ -91,7 +91,7 @@ function Events() {
           </Col>
           <Col size="md-6 sm-12">
             <Jumbotron>
-              <h1>Favorite Events!</h1>
+              <h1>Events</h1>
             </Jumbotron>
             {Events.length ? (
               <List>
