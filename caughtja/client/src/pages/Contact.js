@@ -6,13 +6,13 @@ import Chris from "../components/Assets/Chris.jpg";
 function Contact(){
 
     return (
-        <div className="d-inline p-2 bg-primary text-white justify-content-center">// eslint-disable-next-line
+        <div className="d-inline p-2 bg-primary text-white justify-content-center">
 
             <div className= "conatiner imag " > 
 
-                  <img src={Chris} alt={Chris} style= {{flex: 1, width: 300, height: 300, resizeMode: 'contain', marginLeft: 5, label: "Chris" }} />
-                  <img src={Josh} alt={Josh} style= {{flex: 1, width: 300, height: 300, resizeMode: 'contain', marginLeft: 5, label: "Josh"}} />
-                  <img src={Tedla} alt={Tedla} style= {{flex: 1, width: 300, height: 300, resizeMode: 'contain', marginLeft: 5, label: "Tedla"}}/>
+                  <img src={Chris} alt={Chris} style= {{flex: 1, width: "20rem", height: "20rem", resizeMode: 'contain', marginLeft: 5, label: "Chris" }} />
+                  <img src={Josh} alt={Josh} style= {{flex: 1, width: "20rem", height: "20rem", resizeMode: 'contain', marginLeft: 5, label: "Josh"}} />
+                  <img src={Tedla} alt={Tedla} style= {{flex: 1, width: "20rem", height: "20rem", resizeMode: 'contain', marginLeft: 5, label: "Tedla"}}/>
                  
         
             </div>

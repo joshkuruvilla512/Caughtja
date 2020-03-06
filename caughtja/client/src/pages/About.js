@@ -63,9 +63,6 @@ import Jumbotron from "../components/Jumbotron";
 import { Col, Row, Container } from "../components/Grid";
 // import { List, ListItem } from "../components/List";
 // import { Input, TextArea, FormBtn } from "../components/Form";
-import Tedla from "../components/Assets/Tedla.jpg";
-import Josh from "../components/Assets/Josh.jpg";
-import Chris from "../components/Assets/Chris.jpg";
 
 class About extends Component {
   render(){

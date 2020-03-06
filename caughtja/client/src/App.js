@@ -15,11 +15,7 @@ function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // useEffect(() => {
-  //   axios.get("/api/hello").then(result => {
-  //     console.log(result.data);
-  //   })
-  // }, [])
+
 
 
   function signUp(e) {
@@ -33,14 +29,7 @@ function App() {
     otherElement.append(element)
 
 
-    // fetch("http://localhost:3000/api/events", {
-    //   method: "POST",
-    //   body: JSON.stringify({ "email": input1, "password": input2 })
-    // }).then(function (res) {
-    //   let element = document.createElement("p")
-    //   // element.innerHTML = res.email
-    //   console.log(res)
-    // })
+
   }
 
   return (
@@ -59,15 +48,10 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path="/" component={Login} />
-          {/* <Events /> */}
-          {/* </Route> */}
           <Route exact path="/Events/" component={Events} />
           <Route exact path="/About/" component={About} />
           <Route exact path="/Contact/" component={Contact} />
 
-
-          {/* <Detail /> */}
-          {/* </Route> */}
           <Route>
             <NoMatch />
           </Route>
