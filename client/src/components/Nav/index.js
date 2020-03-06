@@ -27,10 +27,10 @@ function Nav() {
             <a className="nav-link text-light" href="/Caughtja/caughtja/client/src/pages/Contact.js">Log In</a>
           </li> */}
           <li className="nav-item">
-            <a className="nav-link text-light" href="http://localhost:3000/about">About</a>
+            <a className="nav-link text-light" href="https://helpinghands-ut.herokuapp.com/about">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-light" href="http://localhost:3000/events">Events</a>
+            <a className="nav-link text-light" href="https://helpinghands-ut.herokuapp.com/events">Events</a>
           </li>
         </ul>
       </div>
