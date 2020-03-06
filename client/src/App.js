@@ -40,7 +40,7 @@ function App() {
         <label for="email">Email: </label>
         <input id="input1" name="email" type="text" value={email} onChange={(event) => { setEmail(event.target.value) }} /><br />
         <label for="email">Password: </label>
-        <input id="input2" name="password" type="text" value={password} onChange={(event) => { setPassword(event.target.value) }} /><br />
+        <input id="input2" name="password" type="password" value={password} onChange={(event) => { setPassword(event.target.value) }} /><br />
         <button onClick={e => signUp(e)}>Log In</button>
        
         <Nav />
