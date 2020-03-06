@@ -1,3 +1,15 @@
+## Team CaughTJa
+
+## User story 
+
+As college students we are always looking for ways to volunteer. This can be difficult when you’re in a new city and don’t really know where to look for events. We created a website that will not only allow you to see events going on near you but allows you to create events.
+
+##Heroku Link:
+https://helpinghands-ut.herokuapp.com/
+
+##GitHub Link:
+https://github.com/joshkuruvilla512/Caughtja
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +78,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Screen Shot
+
+![DFFD0241-6AA4-4A45-A047-50876E423E90_1_105_c](https://user-images.githubusercontent.com/57952065/76053725-c289c100-5f33-11ea-8c7a-10bcb9195b0e.jpeg)
