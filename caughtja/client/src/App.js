@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
-import axios from "axios";
+import React from "react";
+// import React, { useEffect } from "react";
+// import axios from "axios";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Events from "./pages/Events";
-import Detail from "./pages/Detail";
+// import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import About from "./pages/About";
@@ -47,7 +48,7 @@ function App() {
 
         <Nav />
         <Switch>
-          <Route exact path="/" component={Login} />
+          <Route exact path="/" component={Events} />
           <Route exact path="/Events/" component={Events} />
           <Route exact path="/About/" component={About} />
           <Route exact path="/Contact/" component={Contact} />
