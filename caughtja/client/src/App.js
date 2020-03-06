@@ -8,6 +8,8 @@ import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import home from "./pages/home";
+
 
 import Nav from "./components/Nav";
 import { useState } from "react";
@@ -36,9 +38,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <label htmlFor="email">Email: </label>
+        <label htmlFor="email">  Email:  </label>
         <input id="input1" name="email" type="text" value={email} onChange={(event) => { setEmail(event.target.value) }} /><br />
-        <label htmlFor="email">Password: </label>
+        <label htmlFor="email"> Password:  </label>
         <input id="input2" name="password" type="text" value={password} onChange={(event) => { setPassword(event.target.value) }} /><br />
         <button onClick={e => signUp(e)}>Sign Up!</button>
 
@@ -48,10 +50,12 @@ function App() {
 
         <Nav />
         <Switch>
-          <Route exact path="/" component={Events} />
+          <Route exact path="/" component={home} />
           <Route exact path="/Events/" component={Events} />
           <Route exact path="/About/" component={About} />
           <Route exact path="/Contact/" component={Contact} />
+          <Route exact path="/Login/" component={Login} />
+
 
           <Route>
             <NoMatch />

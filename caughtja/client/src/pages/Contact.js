@@ -9,11 +9,24 @@ function Contact(){
         <div className="d-inline p-2 bg-primary text-white justify-content-center">
 
             <div className= "conatiner imag " > 
+                
+                <ul className="nav justify-content-center">
+            
+                <li className="nav-item">
+                    <img src={Chris} alt={Chris} style= {{flex: 1, width: "20rem", height: "20rem", resizeMode: 'contain', marginLeft: 5, label: "Chris" }} />
+                
+                </li>
+                <li className="nav-item">
+                    <img src={Josh} alt={Josh} style= {{flex: 1, width: "20rem", height: "20rem", resizeMode: 'contain', marginLeft: 5, labelChoice: ["Josh"]}} />
+                    
+                </li>
+                <li className="nav-item">
+                    <img src={Tedla} alt={Tedla} style= {{flex: 1, width: "20rem", height: "20rem", resizeMode: 'contain', marginLeft: 5, label: "Tedla"}}/>
+                
+                </li>
 
-                  <img src={Chris} alt={Chris} style= {{flex: 1, width: "20rem", height: "20rem", resizeMode: 'contain', marginLeft: 5, label: "Chris" }} />
-                  <img src={Josh} alt={Josh} style= {{flex: 1, width: "20rem", height: "20rem", resizeMode: 'contain', marginLeft: 5, label: "Josh"}} />
-                  <img src={Tedla} alt={Tedla} style= {{flex: 1, width: "20rem", height: "20rem", resizeMode: 'contain', marginLeft: 5, label: "Tedla"}}/>
-                 
+           
+                </ul>                 
         
             </div>
         </div>

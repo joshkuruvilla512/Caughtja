@@ -24,7 +24,7 @@ function Nav() {
 
         <ul className="nav justify-content-end">
           <li className="nav-item">
-            <a className="nav-link text-light" href="/Caughtja/caughtja/client/src/pages/Contact.js">Log In</a>
+            <a className="nav-link text-light" href="/http://localhost: 3000/Login">Log In</a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-light" href="http://localhost:3000/events">Events</a>

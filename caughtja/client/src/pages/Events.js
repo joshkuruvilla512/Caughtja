@@ -47,7 +47,8 @@ function Events() {
       API.saveEvent({
         Event: formObject.Event,
         Organizer: formObject.Organizer,
-        Purpose: formObject.Purpose
+        Purpose: formObject.Purpose,
+        Address: formObject.Address
       })
         .then(res => loadEvents())
         .catch(err => console.log(err));
@@ -62,7 +63,7 @@ function Events() {
               <h1>Create an Event!</h1>
             </Jumbotron>
             <div>
-            <h2>To create an event, write the name of the event, who is organizing it, and the purpose behind the event</h2>
+            <h2>Create Volunteer Event</h2>
             
             <form>
               <Input
@@ -91,7 +92,7 @@ function Events() {
           </Col>
           <Col size="md-6 sm-12">
             <Jumbotron>
-              <h1>Favorite Events!</h1>
+              <h1>Favorite Events</h1>
             </Jumbotron>
             {Events.length ? (
               <List>
